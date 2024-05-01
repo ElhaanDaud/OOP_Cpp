@@ -31,11 +31,14 @@ class Student_Info{
 
 int main(){
     Student_Info stud[3];
-    int i;
-    for(i=0; i<3; i++)
-    stud[i].read_data(i);
-    for(i=0; i<3; i++)
-    stud[i].display_data(i);
+    
+    for(int i=0; i<3; i++){
+        stud[i].read_data(i);
+    }
+    
+    for(int i=0; i<3; i++){
+         stud[i].display_data(i);
+    }
     return 0;
 }
 
